@@ -1,0 +1,9 @@
+.back{
+-fx-background-image:url("hi.jpg");
+}
+.backdonate{
+-fx-background-image:url("donate.jpg");
+}
+.backpenny{
+-fx-background-image:url("pennySplit.jpg");
+}

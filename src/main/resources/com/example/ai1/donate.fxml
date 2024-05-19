@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="610.0" prefWidth="580.0" style="-fx-background-color: #c6d9eb;" styleClass="back3" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ai1.donateController">
+   <children>
+      <ImageView fitHeight="610.0" fitWidth="580.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/donateLevel.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="eat1" layoutX="198.0" layoutY="507.0" mnemonicParsing="false" onAction="#eat1Clicked" prefHeight="73.0" prefWidth="79.0" style="-fx-background-color: transport;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="eat2" layoutX="327.0" layoutY="507.0" mnemonicParsing="false" onAction="#eat2Clicked" prefHeight="73.0" prefWidth="79.0" style="-fx-background-color: transport;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="eat3" layoutX="455.0" layoutY="507.0" mnemonicParsing="false" onAction="#eat3Clicked" prefHeight="73.0" prefWidth="79.0" style="-fx-background-color: transport;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="i1" fitHeight="57.0" fitWidth="56.0" layoutX="467.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i2" fitHeight="57.0" fitWidth="56.0" layoutX="388.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i3" fitHeight="57.0" fitWidth="56.0" layoutX="299.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i4" fitHeight="57.0" fitWidth="56.0" layoutX="210.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i5" fitHeight="57.0" fitWidth="56.0" layoutX="126.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i7" fitHeight="57.0" fitWidth="56.0" layoutX="467.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i8" fitHeight="57.0" fitWidth="56.0" layoutX="388.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i9" fitHeight="57.0" fitWidth="56.0" layoutX="299.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i10" fitHeight="57.0" fitWidth="56.0" layoutX="210.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i6" fitHeight="57.0" fitWidth="56.0" layoutX="39.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i13" fitHeight="57.0" fitWidth="56.0" layoutX="467.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i14" fitHeight="57.0" fitWidth="56.0" layoutX="388.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i15" fitHeight="57.0" fitWidth="56.0" layoutX="299.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i12" fitHeight="57.0" fitWidth="56.0" layoutX="39.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i11" fitHeight="57.0" fitWidth="56.0" layoutX="126.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i16" fitHeight="57.0" fitWidth="56.0" layoutX="210.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i17" fitHeight="57.0" fitWidth="56.0" layoutX="126.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i18" fitHeight="57.0" fitWidth="56.0" layoutX="39.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i19" fitHeight="57.0" fitWidth="56.0" layoutX="467.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i20" fitHeight="57.0" fitWidth="56.0" layoutX="388.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i21" fitHeight="57.0" fitWidth="56.0" layoutX="299.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/singleD-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="e" layoutX="188.0" layoutY="14.0" mnemonicParsing="false" onAction="#eClicked" prefHeight="100.0" prefWidth="104.0" style="-fx-background-color: transport;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="m" layoutX="315.0" layoutY="14.0" mnemonicParsing="false" onAction="#mClicked" prefHeight="100.0" prefWidth="104.0" style="-fx-background-color: transport;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="h" layoutX="443.0" layoutY="14.0" mnemonicParsing="false" onAction="#hClicked" prefHeight="100.0" prefWidth="104.0" style="-fx-background-color: transport;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

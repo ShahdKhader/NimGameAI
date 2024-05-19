@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="580.0" style="-fx-background-color: #F9D6D2;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ai1.ChooseGameController">
+   <children>
+      <ImageView fx:id="button1" fitHeight="304.0" fitWidth="569.0" layoutX="6.0" onMouseClicked="#button1Clicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/donate.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="button2" fitHeight="304.0" fitWidth="569.0" layoutX="6.0" layoutY="318.0" onMouseClicked="#button2Clicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../accessories/sticks100.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
